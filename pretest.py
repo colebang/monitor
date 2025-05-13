@@ -4,8 +4,8 @@ import plotly.express as px
 import streamlit as st
 
 # ========== Données ==========
-carteBurkina = gpd.read_file("C:\\Users\\USER\\Desktop\\Monitoring\\gadm41_BFA_3.json")
-index_file = pd.ExcelFile("C:\\Users\\USER\\Desktop\\Monitoring\\index_data.xlsx")
+carteBurkina = gpd.read_file("gadm41_BFA_3.json")
+index_file = pd.ExcelFile("index_data.xlsx")
 carteBurkina["NAME_3"].iloc[195] = "Fada N'gourma"
 
 # Fonction de catégorisation
