@@ -42,8 +42,8 @@ index_key = index_options[index_display]
 
 # ========== Chargement des données avec spinner ==========
 with st.spinner("📂 Chargement des données..."):
-    carteBurkina = load_geojson(gadm41_BFA_3.json")
-    index_file = load_excel(index_data.xlsx")
+    carteBurkina = load_geojson("gadm41_BFA_3.json")
+    index_file = load_excel("index_data.xlsx")
     df_index = parse_sheet(index_file, index_key)
 
 # ========== Sélection de l'année et du département ==========
