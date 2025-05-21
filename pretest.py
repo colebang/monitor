@@ -163,11 +163,11 @@ st.subheader("🎞️ Animation de l'évolution annuelle de l'indice sélectionn
 
 # Dictionnaire des chemins des fichiers GIF
 gif_paths = {
-    "wrsi": "gifs\\wrsi.gif",
-    "ndvi": "gifs\\ndvi.gif",
-    "cps": "gifs\\cps.gif",
-    "spi": "gifs\\spi.gif",
-    "resid": "gifs\\resid.gif"
+    "wrsi": "gifs/wrsi.gif",
+    "ndvi": "gifs/ndvi.gif",
+    "cps": "gifs/cps.gif",
+    "spi": "gifs/spi.gif",
+    "resid": "gifs/resid.gif"
 }
 
 # On récupère le bon chemin selon l'indice sélectionné
