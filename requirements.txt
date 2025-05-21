@@ -1,5 +1,8 @@
 streamlit
-pandas
 geopandas
+pandas
 plotly
+imageio
+matplotlib
 openpyxl
+kaleido
